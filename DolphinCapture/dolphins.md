@@ -283,8 +283,8 @@ performing the transformation).
 #### Table: potential covariates {#tab:potential_covariates}
 
 -----------------------------------------------------------------------
-Covariate               Description
----------------         -----------------------------------------------
+Covariate        Description
+------------     ------------------------------------------------------
 Trawl speed             Fishing speed (knots) from the Trawl Catch Effort
                         Processing Return (TCEPR) data.
 
@@ -349,6 +349,7 @@ Season                  A grouping of months into quarters (January to March,
 Nation                  Factor indicating which flag each vessel was flying:
                         Russia, New Zealand, Japan, Korea, or FOC (a flag of
                         convenience).
+
 -----------------------------------------------------------------------
 
 Caption: __Potential covariates considered for inclusion in the model.__
@@ -382,7 +383,7 @@ coverage between 1995--96 and 2010--11 fluctuated considerably, between 7 and
 
 \initiateLandscape
 
-#### Table: annual dolphin capture summary {#tab:dolphin-effort .wide}
+#### Table: annual dolphin capture summary {#tab:dolphin-effort}
 
 **Year** | **Effort** | **% obs.** | **Cap.** | **Events** | **Rate** | **Est. captures** |  | **Est. cap. rate** |   |
 ---------|-----|------|---|---|------|---|--------|------|---------------
