@@ -1,0 +1,23 @@
+---
+fontsize: 10pt
+latex-before-packages-includes:
+    - \PassOptionsToPackage{labelfont=bf,labelsep=period,justification=raggedright}{caption}
+    - \topmargin 0.0cm
+    - \oddsidemargin 0.5cm
+    - \evensidemargin 0.5cm
+    - \textwidth 16cm
+    - \textheight 21cm
+latex-after-packages-includes:
+    - \usepackage{pdflscape}
+    - \makeatletter\renewcommand{\@biblabel}[1]{\quad#1.}\makeatother
+latex-header-includes:
+    - \date{}
+    - \pagestyle{myheadings}
+    - \newcommand{\initiateLandscape}{\begin{landscape}}
+    - \newcommand{\terminateLandscape}{\end{landscape}}
+biblio-style: resources/plos2009
+natbib-options:
+    - numbers
+    - sort&compress
+...
+
