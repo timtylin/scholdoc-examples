@@ -326,7 +326,7 @@ Light condition         A three-valued factor that classified tows according to
                         black (net hauled between midnight and dawn on a dark
                         night). The illumination of the moon and time of dawn
                         and dusk were calculated using standard algorithms
-                        [@Meeus_astronomical_1991]. The night was
+                        [@meeus_astronomical_1991]. The night was
                         classified as moonlit if more than 17% of the moon's
                         disc was illuminated. Dawn and dusk were defined as
                         when the centre of the sun's disk was 6° below
@@ -334,7 +334,7 @@ Light condition         A three-valued factor that classified tows according to
 
 Moon illumination       Fractional illumination (percentage) of the moon's
                         disc, calculated using standard algorithms
-                        [@Meeus_astronomical_1991].
+                        [@meeus_astronomical_1991].
 
 Night hours             The number of night hours during a trawl, calculated as
                         the number of hours of the tow between civil dawn and

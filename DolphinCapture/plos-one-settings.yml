@@ -19,5 +19,6 @@ biblio-style: resources/plos2009
 natbib-options:
     - numbers
     - sort&compress
+csl: resources/plos.csl
 ...
 
