@@ -18,5 +18,6 @@ clean:
 	-[[ -f "dolphins.bbl" ]] && rm dolphins.bbl
 	-[[ -f "dolphins.pdf" ]] && rm dolphins.pdf
 	-[[ -f "dolphins.html" ]] && rm dolphins.html
+	-[[ -f "dolphins_generatedByScholdoc.pdf" ]] && rm dolphins_generatedByScholdoc.pdf
 
 .PHONY: html latex pdf autopdf clean
